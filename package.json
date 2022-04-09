@@ -1,0 +1,26 @@
+{
+  "name": "rounded-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p ${PORT:-8080}",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "file-loader": "^6.2.0",
+    "next": "12.1.0",
+    "next-fonts": "^1.5.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.49.9",
+    "scroll-to-element": "^2.0.3",
+    "swiper": "^8.0.7",
+    "url-loader": "4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0"
+  }
+}
